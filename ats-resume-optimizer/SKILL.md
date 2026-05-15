@@ -14,6 +14,7 @@ Progress:
 - [ ] Phase 1: Gather inputs (resume, job posting URL, region, output preference)
 - [ ] Phase 2: Research ATS vendor
 - [ ] Phase 3: Five-dimension analysis
+- [ ] Phase 3.5: User interview (if producing rewritten resume)
 - [ ] Phase 4: Generate output(s)
 ```
 
@@ -92,6 +93,26 @@ If the user specified a non-US region, load `references/regional-guide.md` and a
 
 For US-based roles, ensure compliance keywords for regulated industries (finance, healthcare, defense) are present if applicable.
 
+### Phase 3.5: User Interview (required for Option B or C)
+
+If the user selected Option B (rewritten resume) or Option C (both), conduct a brief interview **before writing the resume**. This surfaces authentic details to close keyword gaps without fabrication.
+
+For each **critical missing keyword** or **knockout gap** identified in Phase 3, ask targeted questions:
+
+- **Experiences not on the resume**: "Have you done any work with [missing skill/domain] that isn't reflected here? Even adjacent exposure counts."
+- **Metrics and outcomes**: "What was the measurable result of that project? Traffic, conversions, revenue, efficiency gains?"
+- **Collaboration context**: "Which teams did you work with on that initiative? Product Marketing? Creative? Engineering?"
+- **Industry exposure**: "Do you have any exposure to [industry, e.g., healthcare], even tangential — clients, side projects, personal interest?"
+- **Tool experience**: "Have you used [missing tool]? Even casually or in a previous role?"
+
+**Rules for the interview:**
+
+- Ask one question at a time. Let the user answer before moving to the next.
+- Stop after surfacing 3-5 new details — don't exhaust the user.
+- Never lead the user toward a specific answer. Don't suggest experiences they didn't have.
+- If the user says "no" to a question, move on. Do not revisit it.
+- Document every new detail the user provides — these become the source material for the rewritten resume.
+
 ### Phase 4: Generate Output(s)
 
 Based on the user's choice in Phase 1, produce one or both:
@@ -112,15 +133,18 @@ Every recommendation must reference the specific report section or line number t
 
 #### Option B: Rewritten Resume
 
+**Prerequisite:** Complete the Phase 3.5 interview first.
+
 Create a new file (never overwrite the original). The filename should be the original name with `-ats-optimized` appended before the extension (e.g., `resume.pdf` → `resume-ats-optimized.pdf`).
 
-Apply all format fixes, keyword insertions, and knockout gap closures identified in Phase 3. Preserve the original content and structure as much as possible while:
+Apply all format fixes, keyword insertions, and knockout gap closures identified in Phase 3. **Use details surfaced in the Phase 3.5 interview** to close gaps with authentic content. Preserve the original content and structure as much as possible while:
 
 - Ensuring single-column layout with standard headings
 - Embedding missing keywords naturally into experience bullets, not as a keyword-stuffed list
 - Adding explicit evidence for knockout criteria near the top of the resume (summary section, or first experience entry)
 - Increasing keyword frequency for high-value terms across multiple sections
 - Including quantified achievements for AI-first platforms (Eightfold, Greenhouse)
+- **Weaving interview insights** into existing experience bullets — if the user mentioned a healthcare-adjacent project, add it to the relevant role; if they cited a metric not on the resume, add it
 
 After writing, produce a summary of changes made, with each change citing the report justification.
 
