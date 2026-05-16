@@ -95,7 +95,9 @@ For US-based roles, ensure compliance keywords for regulated industries (finance
 
 ### Phase 3.5: User Interview (required for Option B or C)
 
-If the user selected Option B (rewritten resume) or Option C (both), conduct a brief interview **before writing the resume**. This surfaces authentic details to close keyword gaps without fabrication.
+**This step is mandatory before creating any rewritten resume.** If the user selected Option B or C, the interview must be completed first. Skipping it produces a resume padded with generic keyword insertions rather than authentic, interview-sourced detail.
+
+Conduct a brief interview **before writing the resume**. This surfaces authentic details to close keyword gaps without fabrication.
 
 For each **critical missing keyword** or **knockout gap** identified in Phase 3, ask targeted questions:
 
@@ -154,6 +156,7 @@ After writing, produce a summary of changes made, with each change citing the re
 - **Every recommendation or change must cite the specific report section** that justifies it (e.g., "Report Section: Parsing Failure Modes — Two-Column Templates").
 - **Contextual embedding**: Never stuff keywords into a standalone list. Integrate them into experience bullets and the summary.
 - **Preserve authenticity**: Do not fabricate skills, experiences, or credentials the candidate does not possess.
+- **Avoid keyword stuffing**: Do not repeat the same keyword or phrase redundantly to inflate density. One strong, contextual mention in a relevant bullet outweighs three forced mentions. While ATS parsers do reward term frequency, keyword stuffing is detectable and degrades readability for the recruiter who reviews the resume after the ATS pass. Each keyword instance must arise naturally from the content of the bullet it appears in.
 
 ## Gotchas
 
